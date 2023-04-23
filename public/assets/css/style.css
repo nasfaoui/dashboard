@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;1,300&display=swap');
+
+
+/* :root{
+    --color-blue-dark: #010B13;
+    --color-navy: #000080;
+    --color-gray: #C4C3D0;
+    --color-white: #F8F8FF;
+    --color-biege: #F5F5DC;
+    --color-orange: #FF7F00;
+    --color-red: #800000;
+
+     biege #D1D1F1
+} */
+
+
+.owl-carousel a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:orange;
+}
+
+li a:hover{
+    color:orange;
+}
+
+*{
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+
+.btn-primary {
+    background-color: #000080;
+    border-color: #000080;
+  }
+
+body
+{
+    background-color: #F8F8FF;
+}
+
+
+/* slogan  */
+.bannier{
+    display: flex;
+    padding: 10px ;
+    align-items: center;
+    justify-content: center;
+    background-color: #D1D1F1;
+    /* background-image: url(../images/slider/banniére.png); */
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.bannier h1{
+    color: #000080;
+}
+/* navbar */
+
+.depose{
+    height: 40px;
+}
+
+.navbar{
+    background-color: #F8F8FF;
+}
+
+.navbar-brand span {
+    color: rgb(5, 5, 94);
+    font-weight: bold;
+    padding-top: 1rem;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+/* profile aside bar style */
+.list-group .list-group-item i {
+    padding-right: 20px;
+}
+
+.dropdown-menu .dropdown-item i{
+    padding-right: 15px;
+
+}
+
+.list-group {
+    margin-top: 15%;
+}
+
+
+.user-image{
+    /* for mobile */
+    margin: 0 auto;
+    align-items: center;
+    height: 200px;
+    margin-left: 20%;
+    width: 200px;
+    border-radius: 50%;
+    
+    
+}
+
+.user_img_web{
+    margin: 0 auto;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.user-name {
+    /* for mobile */
+    padding-top: 10px;
+    text-align: center;
+    justify-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.offcanvas-body a{
+    margin-bottom: 10px;
+}
+
+.filtter a{
+    margin-bottom: 10px;
+}
+
+.navbar-brand span {
+   
+    font-size: 20px;
+}
+/* end navbar */
+
+
+/* search */
+.zone-search{
+    padding: 10px ;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+   /* style for image of servicee by category  */
+   .item img{
+    height: 150px;
+}
+
+
+
+/* icon prefix of search  */
+.input-container {
+position: relative;
+width: 100%; 
+}
+
+
+
+.input-container .prefix {
+position: absolute;
+left: 10px;
+top: 50%;
+transform: translateY(-50%);
+color: #000080;
+/* font-weight: bold;
+font-size: 20px; */
+}
+/* icon suffix of search  */
+.input-container .suffix {
+    position: absolute;
+    right:  10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000080;
+    /* font-weight: bold;
+    font-size: 20px; */
+}
+/*  placeholder of search  */
+.input-container input {
+ 
+    border: #000080 0.5 solid ;
+    width: 100%;
+    padding-left: 40px; 
+
+}
+.input-container select {
+ 
+ 
+    width: 100%;
+    padding-left: 40px; 
+
+}
+
+.input-container select option {
+    margin-left: 0px;
+}
+
+
+/* card title style */
+.card-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* rapide link*/
+.rapide_category {
+    border: #000080;
+    padding: 8px 10px;
+    align-items: center;
+    border-radius: 10px;
+    border: #000080 solid 1px;
+    margin-right: 10px;
+}
+.rapide_cat a {
+    text-decoration: none;
+    color: black;
+}
+.rapide_category:hover{
+    background-color: #000080;
+    color: white;
+}
+
+.rapide_cat {
+    margin-top: 20px;
+}
+
+.rapide{
+    margin-top: 10px;
+    margin-bottom: 50px;
+   
+}
+
+
+
+
+
+
+
+/*  depose travaille  style*/
+
+.post-left-box{
+    width:100%;
+    float: left;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.post-right-box{
+    width: 30%;
+    float: right;
+    padding: 10px;
+
+}
+.left-box input {
+    width: 100%;
+    padding: 10px 15px;
+   
+    
+}
+.main-title{
+color:#000080;
+
+font-weight: bold;
+}
+
+.conseil{
+padding: 10px;
+}
+
+.main-body{
+font-size: 10px;
+color: gray;
+}
+
+
+/* dashbord artisan and client */
+.dashbord_image_user {
+    border-radius: 50%;
+    height: 250;
+    width: 250;
+}
+
+
+
+/*dashbord user  style dashbord component  */
+
+.navy{
+    color: #000080;
+  }
+  .bc-navy{
+    background-color: #000080;
+  }
+  .btn-sav{
+    color: white;
+    border: none;
+  }
+  
+  @media (max-width:768px)
+  {
+    .responsive-form{
+      flex-direction: column;
+    }
+    .tab-child{
+      width: 80% !important
+    }
+  }
+
+
+
